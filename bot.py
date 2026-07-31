@@ -17,8 +17,8 @@ async def handler(message: Message):
         entities=[
             MessageEntity(
                 type="custom_emoji",
-                offset=len("Привет! "),
-                length=len(FALLBACK_EMOJI),
+                offset=8,
+                length=2,
                 custom_emoji_id=CUSTOM_EMOJI_ID
             )
         ]
